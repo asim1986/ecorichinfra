@@ -22,11 +22,12 @@ const About = (props: Props) => {
             <div className="about-content">
               <h4>WHO WE ARE</h4>
               <p>
-                At Ecorich Infratech, we're not just builders – we're dreamers
-                and doers. Since day one, we've been working hard to create
-                spaces that not only look good but also stand the test of time.
-                We're all about transforming your visions into concrete reality,
-                adding our touch to Delhi's ever-evolving skyline.
+                At Ecorich Infratech, we{`'`}re not just builders. We{`'`}re
+                dreamers and doers. Since day one, we{`'`}ve been working hard
+                to create spaces that not only look good but also stand the test
+                of time. We{`'`}re all about transforming your visions into
+                concrete reality, adding our touch to Delhi{`'`}s ever-evolving
+                skyline.
               </p>
               <a className="main_btn" href="#">
                 learn more

@@ -1,41 +1,42 @@
-import React from 'react'
-import Image from 'next/image'
+import React from "react";
+import Image from "next/image";
 
-type Props = {}
+type Props = {};
 
 const About = (props: Props) => {
   return (
     <section className="about-area area-padding">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-6 d-none d-lg-block">
-              <div className="about-img">
-                <Image width={555} height={485} src="/images/about1.png.webp" alt="" />
-              </div>
+      <div className="container">
+        <div className="row align-items-center">
+          <div className="col-lg-6 d-none d-lg-block">
+            <div className="about-img">
+              <Image
+                width={555}
+                height={485}
+                src="/images/about1.png.webp"
+                alt=""
+              />
             </div>
-            <div className="col-lg-6">
-              <div className="about-content">
-                <h4>
-                  WE ARE ON EXPERT <br />
-                  THIS FIELD BUILDINGS
-                  <br />
-                  SOLUTIONS SINCE 1974.
-                </h4>
-                <p>
-                  Void gathering midst together you{`'`}re shall. Beast set he{" "}
-                  <br />
-                  likeness spirit winged two all fourth they{`'`}re gathered
-                  <br /> seasons very may heaven saying. Fly image th
-                </p>
-                <a className="main_btn" href="#">
-                  learn more
-                </a>
-              </div>
+          </div>
+          <div className="col-lg-6">
+            <div className="about-content">
+              <h4>WHO WE ARE</h4>
+              <p>
+                At Ecorich Infratech, we're not just builders – we're dreamers
+                and doers. Since day one, we've been working hard to create
+                spaces that not only look good but also stand the test of time.
+                We're all about transforming your visions into concrete reality,
+                adding our touch to Delhi's ever-evolving skyline.
+              </p>
+              <a className="main_btn" href="#">
+                learn more
+              </a>
             </div>
           </div>
         </div>
-      </section>
-  )
-}
+      </div>
+    </section>
+  );
+};
 
-export default About
+export default About;

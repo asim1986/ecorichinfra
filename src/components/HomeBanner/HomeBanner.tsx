@@ -19,9 +19,9 @@ const HomeBanner = (props: Props) => {
             <div className="banner_content text-center">
               <span>Future construction</span>
               <h3>
-                Make your dream home
+              Welcome to Ecorich Infratech
                 <br />
-                with sintac
+                Where Dreams Take Shape!
               </h3>
               <a className="main_btn" href="#">
                 get a quote

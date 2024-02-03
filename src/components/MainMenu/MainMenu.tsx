@@ -9,14 +9,14 @@ const MainMenu = (props: Props) => {
     <div className="main_menu">
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container">
-          <Link className="navbar-brand logo_h" href="/">
+          {/* <Link className="navbar-brand logo_h" href="/">
             <Image
-              src="/images/ecorich-logo1.png"
-              alt=""
-              width={190}
-              height={50}
+              src="/images/logo.png.webp"
+              alt="Ecorich Infratech"
+              width={160}
+              height={60}
             />
-          </Link>
+          </Link> */}
           <button
             className="navbar-toggler"
             type="button"
@@ -56,7 +56,7 @@ const MainMenu = (props: Props) => {
                   Projects
                 </Link>
               </li>
-              <li className="nav-item submenu dropdown">
+              {/* <li className="nav-item submenu dropdown">
                 <a
                   href="#"
                   className="nav-link dropdown-toggle"
@@ -79,7 +79,7 @@ const MainMenu = (props: Props) => {
                     </Link>
                   </li>
                 </ul>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link className="nav-link" href="/contact">
                   Contact

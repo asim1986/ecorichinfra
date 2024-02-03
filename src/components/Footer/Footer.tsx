@@ -119,7 +119,7 @@ const Footer = (props: Props) => {
         <div className="container">
           <div className="row ">
             <p className="col-lg-12 footer-text ">
-              Copyright &copy; 2023 All rights reserved | This template is made
+              Copyright &copy; 2024 All rights reserved | This template is made
               with <i className="fa fa-heart" aria-hidden="true"></i> by{" "}
               <a href="#" target="_blank">
                 Asim Malik
